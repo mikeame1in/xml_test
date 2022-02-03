@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="https://www.standart-namespace.com/"
+        xmlns:tns="https://www.standart-namespace.com/"
+        elementFormDefault="qualified">
+    <element name="users">
+        <complexType>
+            <sequence>
+                <element name="user" type="tns:User" minOccurs="0" maxOccurs="10"/>
+            </sequence>
+        </complexType>
+    </element>
+    <complexType name="User">
+        <sequence>
+            <element name="id" type="long"></element>
+            <element name="nickname" type="string"></element>
+        </sequence>
+    </complexType>
+</schema>

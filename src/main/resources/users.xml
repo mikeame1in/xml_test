@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<users xmlns="https://www.standart-namespace.com/"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation = "users.xsd">
+    <user>
+        <id>1</id>
+        <nickname>u_111</nickname>
+        <name>garry</name>
+    </user>
+    <user>
+        <id>2</id>
+        <nickname>u_1212</nickname>
+    </user>
+</users>
